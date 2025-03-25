@@ -1,0 +1,81 @@
+
+
+#clockContainer{
+    position: relative;
+    margin: auto;
+  background-color: none;
+    height: 40vw;
+    width: 40vw;
+    background:url(freepik__adjust__63360.png);
+    background-size: 100%;
+}
+
+#hour,#minute,#second{
+    transform-origin: bottom;
+     position: absolute;
+     background: black;
+     border-radius: 10px;
+
+}
+ 
+#hour{
+    
+    height: 21%;
+    width: 1.8%;
+    top: 30%;
+    left: 49.4%;
+    opacity: 0.8;
+       
+}
+
+#minute{
+    
+    height: 25%;
+    width: 1.3%;
+    top: 26%;
+    left: 49.6%;
+    opacity: 0.8;
+  
+}
+
+#second{
+    
+    height: 29%;
+    width: 1%;
+    top: 21%;
+    left: 49.6%;
+    opacity: 0.8;
+    
+}
+/* Digital Clock Style */
+.digital {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+}
+
+#time {
+    margin: 0;
+    font-weight: bold;
+}
+
+#format {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: #555;
+}
+
+@media (min-width: 600px) {
+    .digital {
+        font-size:1.5rem;
+    }
+    #format {
+        font-size: 2rem;
+    }
+}
